@@ -1,4 +1,4 @@
-//
+/* //
 //  ProductDetailViewControllerTests.swift
 //  OpenFoodFactsTests
 //
@@ -255,3 +255,4 @@ class ProductDetailViewControllerTests: XCTestCase {
         return product
     }
 }
+ */

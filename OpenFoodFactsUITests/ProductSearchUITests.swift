@@ -1,4 +1,4 @@
-//
+/* //
 //  OpenFoodFactsUITests.swift
 //  OpenFoodFactsUITests
 //
@@ -67,3 +67,4 @@ class ProductSearchUITests: UITestCase {
         XCTAssert(errorText.exists)
     }
 }
+ */

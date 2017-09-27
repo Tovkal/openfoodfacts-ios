@@ -1,4 +1,4 @@
-//
+/* //
 //  ProductDetailUITests.swift
 //  OpenFoodFacts
 //
@@ -60,3 +60,4 @@ class ProductDetailUITests: UITestCase {
         cell.tap()
     }
 }
+ */

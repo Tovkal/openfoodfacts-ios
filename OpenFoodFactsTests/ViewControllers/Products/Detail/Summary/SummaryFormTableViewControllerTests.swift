@@ -1,4 +1,4 @@
-//
+/* //
 //  SummaryFormTableViewControllerTests.swift
 //  OpenFoodFactsTests
 //
@@ -78,3 +78,4 @@ class SummaryFormTableViewControllerTests: XCTestCase {
         expect(self.viewController.childViewControllers.count).to(equal(0))
     }
 }
+ */

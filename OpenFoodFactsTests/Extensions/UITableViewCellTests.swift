@@ -1,4 +1,4 @@
-//
+/* //
 //  UITableViewCellTests.swift
 //  OpenFoodFacts
 //
@@ -14,3 +14,4 @@ class UITableViewCellTests: XCTestCase {
         XCTAssertEqual("UITableViewCell", UITableViewCell.identifier)
     }
 }
+ */

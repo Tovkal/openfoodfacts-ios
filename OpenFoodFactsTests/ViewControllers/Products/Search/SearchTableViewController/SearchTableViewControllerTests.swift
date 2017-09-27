@@ -1,4 +1,4 @@
-//
+/* //
 //  SearchTableViewControllerTests.swift
 //  OpenFoodFacts
 //
@@ -327,3 +327,4 @@ class SearchTableViewControllerTests: XCTestCase {
         return productResponse
     }
 }
+ */

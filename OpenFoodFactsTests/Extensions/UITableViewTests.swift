@@ -1,4 +1,4 @@
-//
+/* //
 //  UITableViewTests.swift
 //  OpenFoodFacts
 //
@@ -34,3 +34,4 @@ extension UITableViewTest: UITableViewDataSource {
         return UITableViewCell()
     }
 }
+ */

@@ -1,4 +1,4 @@
-//
+/* //
 //  TakePictureViewControllerTests.swift
 //  OpenFoodFactsTests
 //
@@ -103,3 +103,4 @@ extension TakePictureViewControllerTests: NotificationBannerDelegate {
         notificationBannerEventMap[title]!.append(event)
     }
 }
+ */

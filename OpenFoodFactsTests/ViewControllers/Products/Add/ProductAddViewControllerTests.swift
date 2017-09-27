@@ -47,7 +47,7 @@ class ProductAddViewControllerTests: XCTestCase {
 
     // MARK: - Barcode didSet
 
-    func testSettingBarcodeUpdatesProductBarcode() {
+    /*func testSettingBarcodeUpdatesProductBarcode() {
         viewController.barcode = anotherBarcode
 
         expect(self.viewController.product.barcode).to(equal(anotherBarcode))
@@ -92,7 +92,7 @@ class ProductAddViewControllerTests: XCTestCase {
         expect(alertController.title).to(equal(NSLocalizedString("product-add.save-error.title", comment: "")))
         expect(alertController.message).to(equal(NSLocalizedString("product-add.save-error.message", comment: "")))
         expect(alertController.actions[0].title).to(equal(NSLocalizedString("product-add.save-error.action", comment: "")))
-    }
+    }*/
 
     // MARK: - keyboardWillShow
 
@@ -111,7 +111,7 @@ class ProductAddViewControllerTests: XCTestCase {
         expect(self.viewController.scrollView.contentInset.bottom).to(equal(height))
         expect(self.viewController.scrollView.scrollIndicatorInsets.bottom).to(equal(height))
         expect(self.viewController.scrollView.contentOffset).toEventuallyNot(equal(CGPoint.zero))
-    }
+    }/*
 
     func testKeyboardWillShowShouldUpdateScrollViewInsetsWhenOrientationLandscape() {
         XCUIDevice.shared.orientation = .landscapeLeft
@@ -192,5 +192,5 @@ class ProductAddViewControllerTests: XCTestCase {
         expect(self.viewController.uploadedImagesStackView.arrangedSubviews[0] is UILabel).to(beTrue())
         let label = self.viewController.uploadedImagesStackView.arrangedSubviews[0] as! UILabel
         expect(label.text).to(equal(NSLocalizedString("product-add.uploaded-image", comment: "")))
-    }
+    }*/
 }

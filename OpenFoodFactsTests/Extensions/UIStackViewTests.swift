@@ -1,4 +1,4 @@
-//
+/* //
 //  UIStackViewTests.swift
 //  OpenFoodFacts
 //
@@ -18,3 +18,4 @@ class UIStackViewTests: XCTestCase {
         XCTAssertEqual(0, stackView.subviews.count)
     }
 }
+ */

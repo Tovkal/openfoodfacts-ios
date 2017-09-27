@@ -1,4 +1,4 @@
-//
+/* //
 //  OpenFoodFactsTests.swift
 //  OpenFoodFactsTests
 //
@@ -280,3 +280,4 @@ class ProductServiceTests: XCTestCase {
         expect(result?.code) == networkDownErrorCode
     }
 }
+ */

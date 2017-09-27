@@ -1,4 +1,4 @@
-//
+/* //
 //  IngredientsFormTableViewControllerTests.swift
 //  OpenFoodFactsTests
 //
@@ -78,3 +78,4 @@ class IngredientsFormTableViewControllerTests: XCTestCase {
         expect(self.viewController.childViewControllers.count).to(equal(0))
     }
 }
+ */
